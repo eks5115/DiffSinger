@@ -1,4 +1,9 @@
 import torch
+
+import sys
+import os
+sys.path.append(os.getcwd())
+
 # from inference.tts.fs import FastSpeechInfer
 # from modules.tts.fs2_orig import FastSpeech2Orig
 from inference.svs.base_svs_infer import BaseSVSInfer
